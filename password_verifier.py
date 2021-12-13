@@ -30,7 +30,7 @@ while True:
         valida = False
     
     # La password deve contenere almeno un carattere speciale: .,_-
-    if not re.search("[\,._-]+", pw):
+    if not re.search("[\.,_\-]+", pw):
         print("La password deve contenere almeno un carattere speciale: .,_-")
         valida = False
     
